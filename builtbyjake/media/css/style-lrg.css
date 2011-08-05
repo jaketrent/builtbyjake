@@ -29,7 +29,8 @@ h1 {
   height: 0px;
   display: block;
   overflow: hidden;
-  background: url(../img/builtbyjake.png) no-repeat center;
+  background: url('../img/sprite.png') no-repeat top left;
+  background-position: 0px -231px;
   position: absolute;
   top: -260px;
   left: 0px;
@@ -51,7 +52,8 @@ h1 {
   height: 0px;
   display: block;
   overflow: hidden;
-  background: url(../img/latest.png) no-repeat center;
+  background: url('../img/sprite.png') no-repeat top left;
+  background-position: 0px -168px;
 }
 .creations ul {
   list-style: none;
@@ -90,22 +92,18 @@ h1 {
   height: 0;
   display: inline-block;
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url('../img/sprite.png') no-repeat top left;
 }
-.social .twitter {
-  background-image: url(../img/twitter_bw_32.png);
-}
-.social .linkedin {
-  background-image: url(../img/linkedin_bw_32.png);
-}
-.social .bitbucket {
-  background-image: url(../img/bitbucket_bw_32.png);
-}
-.social .github {
-  background-image: url(../img/github_bw_32.png);
-}
+.social .github { background-position: 0px 0px;  }
+.social .linkedin { background-position: 0px -42px; }
+.social .twitter { background-position: 0px -84px; }
+.social .bitbucket { background-position: 0px -126px;  }
 .footer {
   margin-top: 28px;
   font-size: 10px;
 }
+
+/*
+.sprite { background: url('../img/sprite.png') no-repeat top left;  }
+.sprite.more { background-position: 0px -203px; width: 48px; height: 18px;  }
+*/
