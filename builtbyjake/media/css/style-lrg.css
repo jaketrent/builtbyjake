@@ -1,0 +1,111 @@
+body {
+  background: #160d0e url(../img/table-tall.png) repeat-x top;
+  color: #fff;
+  font-family: Arial, san-serif;
+}
+footer {
+  display: block;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+}
+a img {
+  border: 0px;
+}
+.container {
+  max-width: 819px;
+  width: 70%; /*819*/
+  margin: 0 auto;
+  position: relative;
+  margin-top: 630px;
+}
+h1 {
+  width: 196px;
+  padding-top: 218px;
+  height: 0px;
+  display: block;
+  overflow: hidden;
+  background: url(../img/builtbyjake.png) no-repeat center;
+  position: absolute;
+  top: -260px;
+  left: 0px;
+  z-index: 2;
+}
+.lego {
+  width: 166px;
+  padding-top: 315px;
+  display: block;
+  background: url(../img/lego-jester.png) no-repeat top;
+  position: absolute;
+  top: -357px;
+  right: 0px;
+  z-index: 1;
+}
+.creations h2 {
+  width: 243px;
+  padding-top: 25px;
+  height: 0px;
+  display: block;
+  overflow: hidden;
+  background: url(../img/latest.png) no-repeat center;
+}
+.creations ul {
+  list-style: none;
+  overflow: auto;
+  margin-top: 35px;
+}
+.creations ul li {
+  float: left;
+  width: 30.64713064713065%; /*251/819*/
+  margin-right: 2.6862027%; /*22/819*/
+}
+.creations ul li:last-child {
+  margin-right: 0px;
+}
+.creations ul li img {
+  max-width: 100%;
+  margin-bottom: 45px;
+  -webkit-box-reflect: below 4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.8, transparent), to(rgba(255, 255, 255, .3)));
+}
+.jabber {
+  width: 66%;
+  font-size: 80%;
+  margin-top: 50px;
+}
+.social {
+  float: right;
+  list-style: none;
+}
+.social li {
+  float: right;
+  margin-left: 3px;
+}
+.social li a {
+  width: 32px;
+  padding-top: 32px;
+  height: 0;
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.social .twitter {
+  background-image: url(../img/twitter_bw_32.png);
+}
+.social .linkedin {
+  background-image: url(../img/linkedin_bw_32.png);
+}
+.social .bitbucket {
+  background-image: url(../img/bitbucket_bw_32.png);
+}
+.social .github {
+  background-image: url(../img/github_bw_32.png);
+}
+.footer {
+  margin-top: 28px;
+  font-size: 10px;
+}

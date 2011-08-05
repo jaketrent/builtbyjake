@@ -1,0 +1,7 @@
+body {
+  background: #160d0e url(../img/table-tall.png) repeat-x 0px -182px;
+}
+.container {
+  width: 90%;
+  margin-top: 450px;
+}

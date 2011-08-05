@@ -1,0 +1,24 @@
+body {
+  background: #160d0e url(../img/table-tall.png) repeat-x 0px -232px;
+}
+.container {
+  margin-top: 400px;
+}
+.lego {
+  right: -25px;
+}
+.creations ul li {
+  float: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.creations ul li img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  -webkit-box-reflect: none;
+}
+.jabber {
+  margin-top: 20px;
+  width: 100%;
+}
