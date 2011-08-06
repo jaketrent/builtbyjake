@@ -103,7 +103,39 @@ h1 {
   font-size: 10px;
 }
 
-/*
-.sprite { background: url('../img/sprite.png') no-repeat top left;  }
-.sprite.more { background-position: 0px -203px; width: 48px; height: 18px;  }
-*/
+@media screen and (max-width: 1024px) {
+  body {
+    background: #160d0e url(../img/table-tall.png) repeat-x 0px -182px;
+  }
+  .container {
+    width: 90%;
+    margin-top: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: #160d0e url(../img/table-tall.png) repeat-x 0px -232px;
+  }
+  .container {
+    margin-top: 400px;
+  }
+  .lego {
+    right: -25px;
+  }
+  .creations ul li {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .creations ul li img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    -webkit-box-reflect: none;
+  }
+  .jabber {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
