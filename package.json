@@ -1,0 +1,7 @@
+{
+  "name": "builtbyjake",
+  "version": "1.0.0",
+  "dependencies": {
+    "path": "0.4.9"
+  }
+}
