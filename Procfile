@@ -1,1 +1,1 @@
-web: node builtbyjake/web.js
+web: node web.js
