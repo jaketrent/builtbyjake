@@ -24,13 +24,13 @@ a img {
   margin-top: 630px;
 }
 h1 {
-  width: 196px;
-  padding-top: 218px;
-  height: 0px;
+  width: 215px;
+  height: 166px;
+  text-indent: -999em;
   display: block;
   overflow: hidden;
   background: url('../img/sprite.png') no-repeat top left;
-  background-position: 0px -231px;
+  background-position: -7px -206px;
   position: absolute;
   top: -260px;
   left: 0px;
@@ -47,13 +47,14 @@ h1 {
   z-index: 1;
 }
 .creations h2 {
-  width: 243px;
-  padding-top: 25px;
-  height: 0px;
+  width: 327px;
+  height: 25px;
+  text-indent: -999em;
   display: block;
   overflow: hidden;
   background: url('../img/sprite.png') no-repeat top left;
-  background-position: 0px -168px;
+  background-position: -6px -166px;
+  max-width: 100%;
 }
 .creations ul {
   list-style: none;
@@ -73,14 +74,28 @@ h1 {
   margin-bottom: 45px;
   -webkit-box-reflect: below 4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.8, transparent), to(rgba(255, 255, 255, .3)));
 }
-.jabber {
-  width: 66%;
-  font-size: 80%;
-  margin-top: 50px;
+.footer {
+  margin-top: 28px;
+  font-size: 10px;
+}
+.footer h2 {
+  background: url('../img/sprite.png') no-repeat -7px -130px;
+  width: 355px;
+  height: 25px;
+  overflow: hidden;
+  text-indent: -999em;
+  float: left;
+  margin-right: 20px;
+  max-width: 100%;
+}
+.footer p {
+  clear: both;
+  padding-top: 20px;
 }
 .social {
-  float: right;
+  float: left;
   list-style: none;
+  margin: 10px 0 0 0;
 }
 .social li {
   float: right;
@@ -88,20 +103,15 @@ h1 {
 }
 .social li a {
   width: 32px;
-  padding-top: 32px;
-  height: 0;
+  height: 32px;
+  text-indent: -999em;
   display: inline-block;
   overflow: hidden;
   background: url('../img/sprite.png') no-repeat top left;
 }
-.social .github { background-position: 0px 0px;  }
-.social .linkedin { background-position: 0px -42px; }
-.social .twitter { background-position: 0px -84px; }
-.social .bitbucket { background-position: 0px -126px;  }
-.footer {
-  margin-top: 28px;
-  font-size: 10px;
-}
+.social .github { background-position: -8px -91px;  }
+.social .linkedin { background-position: -7px -56px; }
+.social .twitter { background-position: -7px -18px; }
 
 @media screen and (max-width: 1024px) {
   body {
@@ -134,8 +144,17 @@ h1 {
     margin-bottom: 0px;
     -webkit-box-reflect: none;
   }
-  .jabber {
-    margin-top: 20px;
-    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .creations h2 {
+    background: url('../img/sprite.png') no-repeat -6px -495px;
+    width: 113px;
+    height: 85px;
+  }
+  .footer h2 {
+    background: url('../img/sprite.png') no-repeat -7px -425px;
+    width: 247px;
+    height: 55px;
   }
 }
